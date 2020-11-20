@@ -10,7 +10,7 @@ install:
 
 before_script:
   - git config --global user.email "ambito6666@gmail.com"
-  - git config --global user.name "sujung You"
+  - git config --global user.name "sujungYou"
 
 script: bundle exec rake site:deploy --quiet #--trace
 
@@ -21,14 +21,13 @@ script: bundle exec rake site:deploy --quiet #--trace
 # travis encrypt 'GIT_NAME="YOUR_USERNAME" GIT_EMAIL="YOUR_EMAIL" GH_TOKEN=YOUR_TOKEN'
 env:
   global:
-    secure: "gqT5HVl/HmRWqzFcSHZSWZBb+BAUdj/8CSNFLS/0oThFDbCEzkW8TAFqwGFLAm3Xq1XU6J5sF1jv8Rc
-             CwdH1FPYLPh+2zUvGdBI6qZXPXdPbzlktC+okD++WroLNORD16yapLjN5Hr/o4MYBoz/0KtNvASzO9GtfBw/qsMmhr
-             NHrK7X8vYJ9wyQ1Wx2PUPBWFXtKh41f+hpwZiEoVoQrcDdhPKu0VyDdHZkKk4XzKfFOz6cXxXHL65023ICivygwfu7
-             TD8aawb6QvQS80v8s8MqgNMkNtcXqSR7FTgCKWMSLiqZ9i2uAgrU9xpZbgwJmo2P5nw76Gv8Zdjw8e7wDEwJy6bydS
-             nSou5RsgcTM6vz5DwtbF/E5yBV41yJjd9h2DKQrTlYJt6XBqbB1LjvB4bGvSsOAjD4ea/CZzoJ8umX+eNMgodwSPTx
-             u93sBIg4xO+XTjuukSsQedpnm3UpPVBr65ON8spJjeqvzXjPhqzq0wkzvsT/g0o4OnBkFGkUasNFAl2vsoer0ppWbZ
-             5XzI4FyNWWhx1/Sm2NvxJkjf07YNCvPCpc6FJXcTOEJ46BkwzBEwG01jjG1GiN+rwkkjcZ3Oxi0UDBgMuWiNrZvmJl
-             jJqQU/x2aZnB5t2b/PDMv/5r5GuW8ozrXCgp69vpq6SjuKMwfEDhSuyHR+tXg2xE="
-branches:
+    secure: "sJXfg2YY0fg/7dh2LAeBAbXVsJraQp0VOdMuNX3awzs7NuqlKx/H/U0Zn8+O/5mitcfQaRdATvCcAkn
+            WYFxAnUGy6DuLKrlrezjYSzNQfTNv6z6I3TKy2kz9QDZn0O9U5o+H8tSH4jnw7tFtHmqXTMz1T7z8ljABFKtbZGDBF
+            9y9PzFOrq6squ11J8f6z5U2Hn3zYLpdqZXwQ0Z/k4+m/U5P0gM6oPoww/jLHIj83q8MgNerKqVAduQ3Ii+ykAueNqp
+            yAffjtOLDPqoKQrydBmqbhIY5oTyo/F1XWw+nmLhzNpQfN2dM5a6EohElfmsvptfoZCq5yLsL/cGZtrX9uIjOozZOU
+            V2qUwFrSG0kkdFrCKheb5THp8xOlFGwQnv6U51AN+GtyZuzeKX0UzxmnzdGUwf2SDtmEgT7z1qh2qKnsA2++KLbuUZ
+            jVOh7KSLUQ8AGt3m76uycAYZtDN+GDNEcH49CRr8TPKOTmYosUns9BvjbWj/Kd7HhnysKNKNjZyPkDv9ifa8xlUVHw
+            41QMsnR4MK0Tt3Bvr4iTnCeEOwGSZfPy888Hzylunvksr2TyrWnBEzWOmTbJMggLVzxJ/YRWHPbxG0drho7Y1depa3
+            i9svdtVzHS7u/W3FnHi+cqmrHvx0gVIvcwsvgaG74DYSEenziQHNd7TvfeOBpD7g="
   only:
     - master
